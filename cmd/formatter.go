@@ -3,9 +3,10 @@ package cmd
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/aswinkarthik/csvdiff/pkg/digest"
-	"github.com/fatih/color"
 	"io"
+
+	"github.com/atomicvest/csvdiff/pkg/digest"
+	"github.com/fatih/color"
 )
 
 const (

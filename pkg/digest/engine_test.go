@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aswinkarthik/csvdiff/pkg/digest"
+	"github.com/atomicvest/csvdiff/pkg/digest"
 	"github.com/cespare/xxhash"
 	"github.com/stretchr/testify/assert"
 )

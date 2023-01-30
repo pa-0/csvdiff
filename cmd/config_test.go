@@ -4,10 +4,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aswinkarthik/csvdiff/cmd"
+	"github.com/atomicvest/csvdiff/cmd"
 	"github.com/spf13/afero"
 
-	"github.com/aswinkarthik/csvdiff/pkg/digest"
+	"github.com/atomicvest/csvdiff/pkg/digest"
 	"github.com/stretchr/testify/assert"
 )
 

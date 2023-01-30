@@ -1,4 +1,4 @@
-module github.com/aswinkarthik/csvdiff
+module github.com/atomicvest/csvdiff
 
 require (
 	github.com/OneOfOne/xxhash v1.2.5 // indirect
