@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/atomicvest/csvdiff/pkg/digest"
 	"github.com/fatih/color"
+	"github.com/varunbpatil/csvdiff/pkg/digest"
 )
 
 const (

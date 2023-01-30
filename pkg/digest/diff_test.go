@@ -6,8 +6,8 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/atomicvest/csvdiff/pkg/digest"
 	"github.com/stretchr/testify/assert"
+	"github.com/varunbpatil/csvdiff/pkg/digest"
 )
 
 func TestDiff(t *testing.T) {

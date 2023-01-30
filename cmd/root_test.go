@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/atomicvest/csvdiff/pkg/digest"
 	"github.com/spf13/afero"
 	"github.com/stretchr/testify/assert"
+	"github.com/varunbpatil/csvdiff/pkg/digest"
 )
 
 func TestRunContext(t *testing.T) {

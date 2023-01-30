@@ -31,8 +31,8 @@ import (
 	"github.com/fatih/color"
 	"github.com/spf13/afero"
 
-	"github.com/atomicvest/csvdiff/pkg/digest"
 	"github.com/spf13/cobra"
+	"github.com/varunbpatil/csvdiff/pkg/digest"
 )
 
 var (

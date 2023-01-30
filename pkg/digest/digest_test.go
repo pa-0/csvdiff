@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/atomicvest/csvdiff/pkg/digest"
 	"github.com/cespare/xxhash"
 	"github.com/stretchr/testify/assert"
+	"github.com/varunbpatil/csvdiff/pkg/digest"
 )
 
 func TestCreateDigestWithSource(t *testing.T) {

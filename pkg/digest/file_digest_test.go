@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/atomicvest/csvdiff/pkg/digest"
+	"github.com/varunbpatil/csvdiff/pkg/digest"
 
 	"github.com/stretchr/testify/assert"
 )

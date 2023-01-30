@@ -20,7 +20,7 @@
 
 package main
 
-import "github.com/atomicvest/csvdiff/cmd"
+import "github.com/varunbpatil/csvdiff/cmd"
 
 var version string
 
