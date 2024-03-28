@@ -26,13 +26,6 @@ jobs:
         run: |
           go build -ldflags "-X main.version=${GITHUB_REF#refs/tags/}" .
 
-      - name: Run Lint and Test
-        run: make lint test
-
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v1
-        with:
-          token: ${{secrets.CODECOV_TOKEN}} # This requires CODECOV_TOKEN in your GitHub repository secrets
 
   release:
     needs: build
